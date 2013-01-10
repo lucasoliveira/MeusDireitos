@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" tools:context=".MainActivity" android:orientation="vertical">
+
+	<TextView android:id="@+id/servicosTextView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:drawableLeft="@drawable/salesman" android:gravity="center_horizontal|center_vertical" android:text="@string/servicosHeader"
+		android:textSize="20sp" android:layout_weight="1" android:onClick="goToServicos" android:clickable="true" />
+
+	<TextView android:id="@+id/produtosTextView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+		xmlns:android="http://schemas.android.com/apk/res/android" android:drawableLeft="@drawable/shopping_cart" android:gravity="center_horizontal|center_vertical"
+		android:text="@string/produtosHeader" android:textSize="20sp" android:layout_weight="1" android:onClick="goToProdutos" android:clickable="true" />
+
+
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/contatoTextView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:drawableLeft="@drawable/chat_emoticon" android:gravity="center_horizontal|center_vertical"
+		android:text="@string/contatoHeader" android:textSize="20sp" android:layout_weight="1" android:onClick="goToContato" android:clickable="true" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".ContatoActivity" android:orientation="vertical">
+
+	<TextView android:id="@+id/contato" android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" android:text="@string/contato" />
+
+	<EditText android:id="@+id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine"
+		android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:layout_marginBottom="10sp" android:maxLines="10" android:lines="10" />
+
+	<Button android:text="@string/enviar_email" android:id="@+id/enviarEmail" android:onClick="enviarEmail" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>
